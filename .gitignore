@@ -25,3 +25,9 @@ _retired-pagemint-ads/
 *.log
 .DS_Store
 Thumbs.db
+
+# Original square logo artwork (1-1.7MB each). Kept locally as source art;
+# the site and the ad pages use the optimized marks in assets/ instead.
+nexora-labs-logo.png
+clipforge-logo.png
+pagemint-logo.png
