@@ -1,0 +1,27 @@
+# Nexora Labs — website repository
+# This repo holds the studio site and the two product marketing pages only.
+# The products themselves live in their own repositories.
+
+# Dependencies
+node_modules/
+
+# Contact form submissions, written at runtime by server.js
+data/
+
+# ── Separate repositories, never tracked here ───────────────────────────
+# Both the current and post-rename folder names are listed so this file is
+# correct before and after "PDF editor" becomes "PageMint".
+ClipForge/
+PageMint/
+PDF editor/
+
+# The retired single-page marketing repo, kept only until it is cleared out
+pagemint/
+_retired-pagemint-ads/
+
+# Local
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
